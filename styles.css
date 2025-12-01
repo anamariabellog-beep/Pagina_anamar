@@ -1,6 +1,4 @@
- /* ============================
-   ESTILOS GENERALES
-============================ */
+ /* ESTILOS GENERALES */
 * {
     margin: 0;
     padding: 0;
@@ -30,4 +28,53 @@ body {
 .logo {
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+/* Ocultar checkbox */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Menu normal */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+}
+
+/* ============================
+   HEADER
+============================ */
+.site-headers {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #000000, #444);
+    color: white;
+}
+
+.site-headers h1 {
+    font-size: 2.8rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
